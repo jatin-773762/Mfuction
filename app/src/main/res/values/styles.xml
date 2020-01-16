@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#EC873B</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#EC873B</item>
+    </style>
+
+    <style name="AppThemefirstpage" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#EC873B</item>
+        <item name="colorPrimaryDark">#353535</item>
+        <item name="colorAccent">#EC873B</item>
+    </style>
+
+    <style name="AppThemefirstpage2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#EC873B</item>
+        <item name="colorPrimaryDark">#555555</item>
+        <item name="colorAccent">#EC873B</item>
+    </style>
+
+    <style name="AppThemefirstpage3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#191847</item>
+        <item name="colorAccent">#3FB398</item>
+    </style>
+
+    <style name="AppThemecalc" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F5C7AF</item>
+        <item name="colorPrimaryDark">#006FFF</item>
+        <item name="colorAccent">#3FB398</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".functions.Mplayer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="256dp"
+                android:layout_weight="1"
+                android:background="#009688" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="256dp"
+                android:layout_height="256dp"
+                android:background="#009688"
+                app:cardCornerRadius="126dp">
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="256dp"
+                    android:layout_height="256dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#009688"
+                    android:scaleType="centerCrop"
+                    tools:srcCompat="@drawable/bg" />
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="256dp"
+                android:layout_weight="1"
+                android:background="#2B2B2B" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:hint="Song Name"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal|center"
+                android:text="00:00" />
+            <SeekBar
+                android:id="@+id/seekBar4"
+                android:layout_width="283dp"
+                android:layout_height="40dp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal|center"
+                android:text="00:00" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/prev" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/pause" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/next" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/songlist"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:animateLayoutChanges="false"
+        android:animationCache="false"
+        android:background="#8AF7AD6C"
+        tools:visibility="visible" />
+</RelativeLayout>
+
